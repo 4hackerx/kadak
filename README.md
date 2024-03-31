@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/4hackerx/kadak/blob/main/src/assets/Kadak.png?raw=true"/>
+  <img width=250 src="https://github.com/4hackerx/kadak/blob/main/src/assets/Kadak.png?raw=true"/>
 </p>
 
 # Kadak
