@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/4hackerx/kadak/blob/main/src/assets/Kadak.png?raw=true"/>
+</p>
+
 # Kadak
 
 Welcome to InclusiveVision, a revolutionary approach to web design that empowers accessibility and inclusivity for all users. In today's digital landscape, where the web has become an integral part of our daily lives, it is essential that we create experiences that cater to the diverse needs of every individual. Kadak, our cutting-edge design methodology, is the key to unlocking this vision of a truly accessible and inclusive web.
