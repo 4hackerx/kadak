@@ -6,7 +6,7 @@ import {
 import * as Select from "@radix-ui/react-select";
 import React from "react";
 
-import { cn } from "../utils";
+import { cn } from "../../utils";
 
 interface selectProps {
   selectItems: SelectItem[];

@@ -6,18 +6,18 @@ import SliderControl from "./components/SliderControl";
 import SwitchControl from "./components/SwitchControl";
 import TextPreviewer from "./components/TextPreviewer";
 
-import MicSvg from "./assets/mic.svg";
-import MinusSvg from "./assets/minus-sign.svg";
-import NextSvg from "./assets/next.svg";
-import PlaySvg from "./assets/play.svg";
-import PlusSvg from "./assets/plus-sign.svg";
-import PreviousSvg from "./assets/previous.svg";
-import RewindSvg from "./assets/rewind-10-sec.svg";
-import RocketSvg from "./assets/rocket.svg";
-import SkipSvg from "./assets/skip-10-sec.svg";
-import SnailSvg from "./assets/snail.svg";
-import VolumeMinusSvg from "./assets/volume-minus.svg";
-import VolumePlusSvg from "./assets/volume-plus.svg";
+import MicSvg from "../assets/mic.svg";
+import MinusSvg from "../assets/minus-sign.svg";
+import NextSvg from "../assets/next.svg";
+import PlaySvg from "../assets/play.svg";
+import PlusSvg from "../assets/plus-sign.svg";
+import PreviousSvg from "../assets/previous.svg";
+import RewindSvg from "../assets/rewind-10-sec.svg";
+import RocketSvg from "../assets/rocket.svg";
+import SkipSvg from "../assets/skip-10-sec.svg";
+import SnailSvg from "../assets/snail.svg";
+import VolumeMinusSvg from "../assets/volume-minus.svg";
+import VolumePlusSvg from "../assets/volume-plus.svg";
 
 function App() {
   return (

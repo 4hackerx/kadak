@@ -2,20 +2,20 @@
   "name": "kadak",
   "version": "1.0.0",
   "manifest_version": 3,
-  "permissions": ["scripting", "activeTab"],
+  "permissions": ["scripting", "activeTab", "offscreen"],
   "host_permissions": ["*://*/*"],
   "description": "This is a Chrome extension built to aid the visually impaired",
   "action": {
-    "default_popup": "/index.html",
+    "default_popup": "/interface/index.html",
     "default_title": "kadak"
   },
   "background": {
-    "service_worker": "sw.js"
+    "service_worker": "scripts/sw.js"
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content-script.js"]
+      "js": ["scripts/content-script.js"]
     }
   ]
 }

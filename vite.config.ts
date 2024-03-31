@@ -21,9 +21,10 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        index: "src/index.html", // Entry point for the main React app
-        sw: "src/background/index.ts", // Entry point for the background script
-        "content-script": "src/content-scripts/index.ts", // Entry point for the content script
+        "interface/index": "src/interface/index.html", // Entry point for the main React app
+        "scripts/sw": "src/background/index.ts", // Entry point for the background script
+        "scripts/content-script": "src/content-scripts/index.ts", // Entry point for the content script
+        "offscreen/index": "src/offscreen/index.html",
       },
       output: {
         entryFileNames: (_) => {
@@ -33,7 +34,7 @@ export default defineConfig({
           return `[name].js`;
         },
         assetFileNames: (_) => {
-          return `[name].[ext]`;
+          return `assets/[name].[ext]`;
         },
       },
     },
