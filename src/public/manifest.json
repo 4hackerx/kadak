@@ -1,10 +1,21 @@
 {
-    "version": "1.0.0",
-    "manifest_version": 3,
-    "name": "kadak",
-    "description": "This is a Chrome extension built to aid the visually impaired",
-    "action": {
-        "default_popup": "/index.html",
-        "default_title": "kadak"
+  "name": "kadak",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["*://*/*"],
+  "description": "This is a Chrome extension built to aid the visually impaired",
+  "action": {
+    "default_popup": "/index.html",
+    "default_title": "kadak"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
     }
+  ]
 }
